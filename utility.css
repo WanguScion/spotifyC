@@ -7,3 +7,10 @@
 .alignCenter{
     align-items: center;
 }
+.invert{
+    filter: invert(1);
+}
+.imgtweak{
+    position: relative;
+    top:10px
+}
