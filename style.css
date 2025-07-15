@@ -27,17 +27,8 @@ div{
 
 .home {
     margin: 10px;
-    padding: 18px;
+    padding: 14px;
     
-    font-size:medium;
-    font-weight: bolder;
-    font-family: sans-serif;
-    color: white;
-}
-
-.library{
-    margin: 10px;
-    padding: 18px;
     font-size:medium;
     font-weight: bolder;
     font-family: sans-serif;
@@ -51,8 +42,25 @@ div{
 .home ul li{
     width: 24px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
     list-style: none;
     display: flex;
     gap: 14px;
+}
+
+.library{
+    margin: 10px;
+    padding: 18px;
+    height: 60vh;
+    font-size:medium;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: white;
+}
+
+.footer{
+    position: relative;
+    bottom: 10vh;
+    margin: 10px;
+    padding: 10px;
 }
