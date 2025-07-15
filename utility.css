@@ -14,3 +14,7 @@
     position: relative;
     top:10px
 }
+.grid{
+    display: grid;
+    grid-auto-columns: auto;
+}
