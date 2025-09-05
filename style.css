@@ -51,7 +51,10 @@ div{
 .library{
     margin: 4px;
     padding: 12px;
-    height: 68vh;
+    height: 66vh;
+}
+
+.fonts{
     font-size:medium;
     font-weight: bolder;
     font-family: sans-serif;
@@ -60,9 +63,9 @@ div{
 
 .footer{
     position: relative;
-    top: 40vh;
+    top: 46vh;
     width: 20vw;
-    height: 20vh;
+    height: 16vh;
 }
 
 .clickBox{
@@ -83,9 +86,71 @@ div{
 
 #language{
     padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     position: relative;
-    top: 36vh;
-    height: 24px;
+    top: 42vh;
+    height: 16px;
     border-radius: 12px;
     border: 1px solid white;
+}
+
+.header{
+    justify-content: right;
+    padding: 4px;
+}
+
+.credButtons{
+    font-size:medium;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    height: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.playlists{
+    height: 84vh;
+    font-size: larger;
+    padding: 12px;
+}
+
+.cardContainer{
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.card{
+    background-color: rgb(90, 90, 90);
+    margin: 0px;
+    padding: 8px;
+    width: 160px;
+    border-radius: 6px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.card p{
+    font-size: medium;
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 4px;
+    height: 40px;
+}   
+.play img{
+    height: 40px;
 }
