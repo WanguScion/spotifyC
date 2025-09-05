@@ -19,7 +19,7 @@ div{
     width: 25vw;
 }
 .right{
-    width: 75vw;
+    width: 74vw;
 }
 .visibleBox{
     background-color: #121212;
@@ -55,7 +55,7 @@ div{
 }
 
 .fonts{
-    font-size:medium;
+    font-size:large;
     font-weight: bolder;
     font-family: sans-serif;
     color: white;
@@ -115,7 +115,7 @@ div{
 .playlists{
     height: 84vh;
     font-size: larger;
-    padding: 12px;
+    padding: 12px;  
 }
 
 .cardContainer{
@@ -126,10 +126,12 @@ div{
 }
 
 .card{
-    background-color: rgb(90, 90, 90);
+    position: relative;
+    background-color: rgb(36, 36, 36);
     margin: 0px;
     padding: 8px;
     width: 160px;
+    height: 320px;
     border-radius: 6px;
 }
 
@@ -138,19 +140,25 @@ div{
     object-fit: contain;
 }
 
-.card p{
+.title{
+    height: 36px;
+}
+
+.para{
     font-size: medium;
+    position: relative;
+    top: 40px;
 }
 
 .play{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 20px;
-    left: 4px;
+    position: absolute;
+    top: 200px;
+    left: 120px;
     height: 40px;
-}   
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
 .play img{
     height: 40px;
 }
